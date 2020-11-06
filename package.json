@@ -1,0 +1,16 @@
+{
+  "name": "job-application-ts",
+  "version": "1.0.0",
+  "description": "Job application process: Test",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc -p tsconfig.json && node build/index.js"
+  },
+  "author": "Designhubz",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "latest",
+    "fs-extra": "latest",
+    "typescript": "latest"
+  }
+}
